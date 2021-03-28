@@ -1,0 +1,12 @@
+D:\WSS\PRIS\PRIS\Repository\obj\Debug\netcoreapp3.1\Repository.DAL.csprojAssemblyReference.cache
+D:\WSS\PRIS\PRIS\Repository\obj\Debug\netcoreapp3.1\Repository.DAL.AssemblyInfoInputs.cache
+D:\WSS\PRIS\PRIS\Repository\obj\Debug\netcoreapp3.1\Repository.DAL.AssemblyInfo.cs
+D:\WSS\PRIS\PRIS\Repository\obj\Debug\netcoreapp3.1\Repository.DAL.csproj.CoreCompileInputs.cache
+D:\WSS\PRIS\PRIS\Repository\bin\Debug\netcoreapp3.1\Repository.DAL.deps.json
+D:\WSS\PRIS\PRIS\Repository\bin\Debug\netcoreapp3.1\Repository.DAL.dll
+D:\WSS\PRIS\PRIS\Repository\bin\Debug\netcoreapp3.1\Repository.DAL.pdb
+D:\WSS\PRIS\PRIS\Repository\bin\Debug\netcoreapp3.1\Model.dll
+D:\WSS\PRIS\PRIS\Repository\bin\Debug\netcoreapp3.1\Model.pdb
+D:\WSS\PRIS\PRIS\Repository\obj\Debug\netcoreapp3.1\Repository.DAL.csproj.CopyComplete
+D:\WSS\PRIS\PRIS\Repository\obj\Debug\netcoreapp3.1\Repository.DAL.dll
+D:\WSS\PRIS\PRIS\Repository\obj\Debug\netcoreapp3.1\Repository.DAL.pdb

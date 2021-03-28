@@ -1,0 +1,15 @@
+<ScopeCounters>
+  <Counter Name="Overall" Value="1.117191" Unit="second" Intervals="1" />
+  <Counter Name="FrontEndRun" Value="0.6062023" Unit="second" Intervals="1" />
+  <Counter Name="AssemblyResolverPass" Value="0.0009774" Unit="second" Intervals="1" />
+  <Counter Name="AstBuilder" Value="0.5368067" Unit="second" Intervals="1" />
+  <Counter Name="DdlResolver" Value="0.2056016" Unit="second" Intervals="1" />
+  <Counter Name="GeneratedFilesAsync" Value="0.0260886" Unit="second" Intervals="1" />
+  <Counter Name="Parser" Value="0.0631755" Unit="second" Intervals="1" />
+  <Counter Name="ResourceReferencePass" Value="0.0004704" Unit="second" Intervals="1" />
+  <Counter Name="SyntaxVerifier" Value="0.0345979" Unit="second" Intervals="1" />
+  <Counter Name="RoslynEnvironmentAsync" Value="0.2465544" Unit="second" Intervals="1" />
+  <Counter Name="SimpleLiteralBinding" Value="0" Unit="second" Intervals="1" />
+  <Counter Name="SMS" Value="0.0261649" Unit="second" Intervals="2" />
+  <Counter Name="Table Files Read" Value="0" Unit="count" />
+</ScopeCounters>

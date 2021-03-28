@@ -1,0 +1,3 @@
+D:\WSS\PRIS\PRIS\DB\obj\Debug\DB.usqldbproj.CoreCompileInputs.cache
+D:\WSS\PRIS\PRIS\DB\bin\Debug\DB.usqldbpack
+D:\WSS\PRIS\PRIS\DB\obj\Debug\DB.usqldbpack

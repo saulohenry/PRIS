@@ -1,0 +1,19 @@
+﻿// Merged script 3/28/2021 2:02:58 PM
+
+
+// 1 of 2, original script : 'Imovel.usql'
+CREATE TABLE IF NOT EXISTS [dbo].[Imovel]
+(
+    Id int,
+    Endereco string,
+    numenro int,
+    Data DateTime,
+    INDEX clx_EmpID CLUSTERED(Id ASC)
+)
+DISTRIBUTED BY HASH(Id);
+
+
+
+// 2 of 2, original script : 'Schema1.usql'
+CREATE SCHEMA IF NOT EXISTS [schema1];
+

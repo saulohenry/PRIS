@@ -1,0 +1,9 @@
+﻿CREATE TABLE IF NOT EXISTS [dbo].[Imovel]
+(
+    Id int,
+    Endereco string,
+    numenro int,
+    Data DateTime,
+    INDEX clx_EmpID CLUSTERED(Id ASC)
+)
+DISTRIBUTED BY HASH(Id);

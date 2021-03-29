@@ -20,7 +20,7 @@ namespace API.Controllers
         [HttpGet("imovel/index")]
         public IActionResult Index()
         {
-            return Ok(repositotry.Get(null, null));            
+            return Ok(repositotry.Get());            
         }
 
         // GET: ImovelController/Details/5

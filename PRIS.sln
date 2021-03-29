@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Razor", "Razor\Razor.csproj", "{7776A595-62A5-47FC-96EB-251968703B6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Razor", "Razor\Razor.csproj", "{7776A595-62A5-47FC-96EB-251968703B6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{E3B4ACEE-81EA-4C92-AF60-3C678C66B2F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{E3B4ACEE-81EA-4C92-AF60-3C678C66B2F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{DD7CC55F-77FF-4060-AE68-9D01198B15F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj", "{DD7CC55F-77FF-4060-AE68-9D01198B15F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.DAL", "Repository\Repository.DAL.csproj", "{0DE1D2E4-79A3-4B66-B74E-234360B54C75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository.DAL", "Repository\Repository.DAL.csproj", "{0DE1D2E4-79A3-4B66-B74E-234360B54C75}"
 EndProject
 Project("{0C603C2C-620A-423B-A800-4F3E2F6281F1}") = "DB", "DB\DB.usqldbproj", "{8267C0EC-7553-405C-8DFA-E4EACE11C0E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APITest", "APITest\APITest.csproj", "{D23AE7FD-F94F-453C-9F1F-CD8AC40AC03B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{8267C0EC-7553-405C-8DFA-E4EACE11C0E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8267C0EC-7553-405C-8DFA-E4EACE11C0E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8267C0EC-7553-405C-8DFA-E4EACE11C0E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D23AE7FD-F94F-453C-9F1F-CD8AC40AC03B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D23AE7FD-F94F-453C-9F1F-CD8AC40AC03B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D23AE7FD-F94F-453C-9F1F-CD8AC40AC03B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D23AE7FD-F94F-453C-9F1F-CD8AC40AC03B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

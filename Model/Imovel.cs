@@ -7,7 +7,7 @@ namespace Model
     {
         public int ID { get; set; }
         public string Endereco { get; set; }
-        public int numenro { get; set; }
+        public int numero { get; set; }
         public DateTime Data { get; set; }
 
         // public ICollection<Enrollment> Enrollments { get; set; }

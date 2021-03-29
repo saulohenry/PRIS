@@ -7,7 +7,7 @@ using System.Linq.Expressions;
 
 namespace Repository.DAL
 {
-    public class Repository<TEntity> where TEntity : class
+    public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
     {
         internal Model.DataContext context;
         internal DbSet<TEntity> dbSet;
@@ -18,32 +18,31 @@ namespace Repository.DAL
             this.dbSet = context.Set<TEntity>();
         }
 
-        public virtual IEnumerable<TEntity> Get(
-            Expression<Func<TEntity, bool>> filter = null,
-            Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null,
-            string includeProperties = "")
+        public virtual IEnumerable<TEntity> Get()
         {
             IQueryable<TEntity> query = dbSet;
 
-            if (filter != null)
-            {
-                query = query.Where(filter);
-            }
+            //if (filter != null)
+            //{
+            //    query = query.Where(filter);
+            //}
 
-            foreach (var includeProperty in includeProperties.Split
-                (new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
-            {
-                query = query.Include(includeProperty);
-            }
+            //foreach (var includeProperty in includeProperties.Split
+            //    (new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+            //{
+            //    query = query.Include(includeProperty);
+            //}
 
-            if (orderBy != null)
-            {
-                return orderBy(query).ToList();
-            }
-            else
-            {
-                return query.ToList();
-            }
+            //if (orderBy != null)
+            //{
+            //    return orderBy(query).ToList();
+            //}
+            //else
+            //{
+            //    return query.ToList();
+            //}
+
+            return query.ToList();
         }
 
         public virtual TEntity GetByID(object id)

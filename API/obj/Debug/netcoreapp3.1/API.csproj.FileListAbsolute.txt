@@ -94,3 +94,5 @@ D:\WSS\PRIS\PRIS\API\obj\Debug\netcoreapp3.1\API.csproj.CopyComplete
 D:\WSS\PRIS\PRIS\API\obj\Debug\netcoreapp3.1\API.dll
 D:\WSS\PRIS\PRIS\API\obj\Debug\netcoreapp3.1\API.pdb
 D:\WSS\PRIS\PRIS\API\obj\Debug\netcoreapp3.1\API.genruntimeconfig.cache
+D:\WSS\PRIS\PRIS\API\bin\Debug\netcoreapp3.1\API.xml
+D:\WSS\PRIS\PRIS\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="M:API.Controllers.ImovelController.Index">
+            <summary>
+            Rota que retorna uma lista de Imovel
+            </summary>
+            <returns>IActionResult OK com uma lista Json do objeto Imovel no corpo da resposta</returns>
+        </member>
+        <member name="M:API.Controllers.ImovelController.Details(System.Object)">
+            <summary>
+            Rota que retorna uma lista de Imovel
+            </summary>
+            <returns>IActionResult OK com uma lista Json do objeto Imovel no corpo da resposta</returns>
+        </member>
+        <member name="M:API.Controllers.ImovelController.Create(Model.Imovel)">
+            <summary>
+            Rota que cria um imovel que é passado como parametro
+            </summary>
+            <param name="imovel">Variavel imovel para criação</param>
+            <returns>IActionResult OK com um Json do objeto Imovel no corpo da resposta</returns>
+        </member>
+        <member name="M:API.Controllers.ImovelController.Edit(System.Int32,Model.Imovel)">
+            <summary>
+            Rota para edição do imovel que é passado como parametro
+            </summary>
+            <param name="id">identificador do imovel</param>
+            <param name="imovel">Variavel com os valores do imovel.</param>
+            <returns>IActionResult OK com um Json do objeto Imovel no corpo da resposta</returns>
+        </member>
+        <member name="M:API.Controllers.ImovelController.Delete(System.Object)">
+            <summary>
+            Rota para exclusão do imovel que é passado como parametro o identificador
+            </summary>
+            <param name="id">Identificador do imovel para exclusão</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

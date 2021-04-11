@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AHN21ktvr/aOXjkcvG5gz1Cb4/BIA0ToI0FxufvePUyy+Jcl/q6rGm9WQ6lD/IFKNQR/lcqnIafvDU2rNEU6EQ==",
+  "dgSpecHash": "392qY3Ovl/8zBBa/BJLsKl/jyg1VNS3UwvBy8pM9pIJ40lZX+t/A+t9YgvlgyJw8yiVW6J1yPrZYEURAPh8jvw==",
   "success": true,
   "projectFilePath": "D:\\WSS\\PRIS\\PRIS\\APITest\\APITest.csproj",
   "expectedPackageFiles": [
@@ -29,6 +29,7 @@
     "C:\\Users\\saulo_l1hwora\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "C:\\Users\\saulo_l1hwora\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\saulo_l1hwora\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.extensions.platformabstractions\\1.1.0\\microsoft.extensions.platformabstractions.1.1.0.nupkg.sha512",
     "C:\\Users\\saulo_l1hwora\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\saulo_l1hwora\\.nuget\\packages\\microsoft.identity.client\\4.14.0\\microsoft.identity.client.4.14.0.nupkg.sha512",
     "C:\\Users\\saulo_l1hwora\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\5.6.0\\microsoft.identitymodel.jsonwebtokens.5.6.0.nupkg.sha512",
